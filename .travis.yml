@@ -14,5 +14,5 @@ deploy:
   on:
     tags: true
 before_install:
-- openssl aes-256-cbc -K $encrypted_771bca74694a_key -iv $encrypted_771bca74694a_iv
+- openssl aes-256-cbc -K $encrypted_66d76b76c422_key -iv $encrypted_66d76b76c422_iv
   -in ecr.secrets.enc -out ecr.secrets -d
